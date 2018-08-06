@@ -14,6 +14,8 @@
 		89E3A9F821181AAB008C2066 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E3A9F621181AAB008C2066 /* LaunchScreen.storyboard */; };
 		89E3AA0321181AAB008C2066 /* AutoHeightTVAnCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E3AA0221181AAB008C2066 /* AutoHeightTVAnCellTests.swift */; };
 		89E3AA0E21181AAB008C2066 /* AutoHeightTVAnCellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E3AA0D21181AAB008C2066 /* AutoHeightTVAnCellUITests.swift */; };
+		89E3AA1C21181C9B008C2066 /* ViewComplaintExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E3AA1B21181C9B008C2066 /* ViewComplaintExtension.swift */; };
+		89E3AA1E21181D9B008C2066 /* RemarksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E3AA1D21181D9B008C2066 /* RemarksTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		89E3AA0921181AAB008C2066 /* AutoHeightTVAnCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoHeightTVAnCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E3AA0D21181AAB008C2066 /* AutoHeightTVAnCellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoHeightTVAnCellUITests.swift; sourceTree = "<group>"; };
 		89E3AA0F21181AAB008C2066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89E3AA1B21181C9B008C2066 /* ViewComplaintExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComplaintExtension.swift; sourceTree = "<group>"; };
+		89E3AA1D21181D9B008C2066 /* RemarksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemarksTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				89E3A9ED21181AA0008C2066 /* AppDelegate.swift */,
 				89E3A9EF21181AA0008C2066 /* ViewController.swift */,
+				89E3AA1B21181C9B008C2066 /* ViewComplaintExtension.swift */,
+				89E3AA1D21181D9B008C2066 /* RemarksTableViewCell.swift */,
 				89E3A9F121181AA0008C2066 /* Main.storyboard */,
 				89E3A9F421181AAB008C2066 /* Assets.xcassets */,
 				89E3A9F621181AAB008C2066 /* LaunchScreen.storyboard */,
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				89E3A9F021181AA0008C2066 /* ViewController.swift in Sources */,
+				89E3AA1E21181D9B008C2066 /* RemarksTableViewCell.swift in Sources */,
 				89E3A9EE21181AA0008C2066 /* AppDelegate.swift in Sources */,
+				89E3AA1C21181C9B008C2066 /* ViewComplaintExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
